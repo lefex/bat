@@ -6,7 +6,7 @@
 const {description} = require('../../package');
 
 module.exports = {
-    title: '挑战BAT前端面试',
+    title: '前端面试',
     description: description,
     base: '/bat/',
 
@@ -24,14 +24,37 @@ module.exports = {
         lastUpdated: false,
         nav: [
             {
+                text: '前端小课',
+                link: 'https://lefex.gitee.io'
+            },
+            {
                 text: '关于本站',
-                link: 'https://lefex.gitee.io/bat/about.html'
+                link: 'https://lefex.github.io/bat/about.html'
             },
             {
                 text: 'github',
                 link: 'https://github.com/lefex/bat'
             }
-        ]
+        ],
+        sidebar: {
+            '/network/': [
+              {
+                title: '网络部分面试',
+                collapsable: true,
+                children: [
+                  '',
+                  '1',
+                  '2',
+                  '3',
+                  '4',
+                  '5',
+                  '6',
+                  '7',
+                  '8'
+                ]
+              }
+            ]
+        }
     },
 
     plugins: [

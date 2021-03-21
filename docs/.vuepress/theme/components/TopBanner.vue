@@ -1,6 +1,6 @@
 <template>
   <div class="top-banner-wrap">
-    <el-carousel height="200px">
+    <el-carousel height="200px" :interval="6000">
       <el-carousel-item v-for="item in banners" :key="item.title">
         <div @click="open(item)">
           <h3 class="title">{{item.title}}</h3>
@@ -39,7 +39,7 @@ export default {
   text-align center
   cursor pointer
   .title
-    font-size 30px
+    font-size 38px
     font-weight 700
   .des
     font-size 20px
@@ -47,5 +47,5 @@ export default {
   background-color #409EFF
 
 .el-carousel__item:nth-child(2n+1)
-  background-color #67C23A
+  background-color #F56C6C
 </style>

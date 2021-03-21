@@ -3,16 +3,16 @@ home: true
 
 # banner
 banners:
-- title: BAT前端面试
+- title: 挑战BAT前端面试
   des: 目标：让每个前端人都能够获得一个 offer
   link: https://github.com/lefex/bat
 - title: 前端小课
-  des: 帮助10W人入门并进阶前端的多媒体电子书
+  des: 目标：帮助10W人入门并进阶前端
   link: https://lefex.gitee.io
 mainCards:
 - title: 网络
   des: HTTP、TCP协议、网络原理、socket
-  link: https://github.com/lefex/bat
+  link: /network/
   logo: https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF
 - title: Vue核心原理
   des: Vue 的编程思想，Vue周边框架原理
@@ -55,7 +55,7 @@ mainCards2:
 - title: 常考题
   des: 不分类，汇总一些常考的面试图，典型案例
   link: https://github.com/lefex/bat
-  logo: https://t7.baidu.com/it/u=3435942975,1552946865&fm=193&f=GIF
+  logo: https://t7.baidu.com/it/u=2389510231,616424657&fm=193&f=GIF
 - title: 敲门砖
   des: 简历如何写、自我介绍、项目经验、薪资
   link: https://github.com/lefex/bat
