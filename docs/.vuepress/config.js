@@ -53,7 +53,20 @@ module.exports = {
                   '8'
                 ]
               }
-            ]
+            ],
+            '/js/': [
+                {
+                  title: 'JavaScript编程',
+                  collapsable: true,
+                  children: [
+                    '',
+                    '1',
+                    '2',
+                    '3',
+                    '4'
+                  ]
+                }
+              ]
         }
     },
 
