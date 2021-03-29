@@ -198,28 +198,6 @@ Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()
 
 - 代码结果
 
-```js
-async function async1() {
-    console.log('async1 start');
-    await async2();
-    console.log('async1 end');
-}
-async function async2() {
-    console.log('async2');
-}
-console.log('script start');
-setTimeout(function() {
-    console.log('setTimeout');
-}, 0)
-async1();
-new Promise(function(resolve) {
-    console.log('promise1');
-    resolve();
-}).then(function() {
-    console.log('promise2');
-});
-console.log('script end');
-```
 
 - ES5/ES6 的继承除了写法以外还有什么区别？
 - 请分别用深度优先思想和广度优先思想实现一个拷贝函数？

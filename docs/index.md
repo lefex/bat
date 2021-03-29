@@ -13,12 +13,12 @@ mainCards:
 - title: 网络
   subtitle: 万物互联的基础
   des: HTTP、TCP协议、网络原理、socket
-  link: /network/
+  link: /bat/network/
   logo: https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF
 - title: JavaScript
   des: 作用域、闭包、ES6、模块化、编程思想
   subtitle: 写出更优雅的代码
-  link:  /js/
+  link:  /bat/js/
   logo: https://t7.baidu.com/it/u=3251197759,2520670799&fm=193&f=GIF
 - title: Vue
   des: Vue 的编程思想及周边框架原理、编程思想
@@ -40,8 +40,6 @@ mainCards:
   subtitle: 给用户一流的体验
   link: https://github.com/lefex/bat
   logo: https://t7.baidu.com/it/u=825057118,3516313570&fm=193&f=GIF
-
-mainCards2:
 - title: 算法
   des: 基础算法题解析，数据结构，必考
   subtitle: 别怕，其实很简单

@@ -43,11 +43,13 @@ function asyncCall() {
 // asyncCall();
 
 function resolvePromise() {
-    new Promise((resolve, reject) => {
+    let p1 = new Promise((resolve, reject) => {
         console.log('start fn');
         resolve('suyan');
         console.log('end fn');
-    }).then(res => {
+    });
+    console.log('p1 = ', p1);
+    let p2 = p1.then(res => {
         console.log('resolve = ', res);
         return new Promise((resolve, reject) => {
             console.log('inner fn start ');
@@ -60,11 +62,13 @@ function resolvePromise() {
                 resolve(p);
             }, 1000);
         })
-    }).then(res => {
+    });
+    console.log('p2 = ', p2);
+    p2.then(res => {
         console.log('outer = ', res);
     });
 }
-// resolvePromise();
+resolvePromise();
 
 function rejectCatch() {
     let p = new Promise((resolve, reject) => {
@@ -78,7 +82,7 @@ function rejectCatch() {
         console.log('catch error');
     });
 }
-rejectCatch();
+// rejectCatch();
 
 function onceState() {
     let p = new Promise((resolve, reject) => {

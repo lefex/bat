@@ -1,7 +1,7 @@
 <template>
   <div class="main-min-card-wrap">
     <el-row :gutter="20">
-      <el-col :span="4" v-for="item in cards" :key="item.title">
+      <el-col :xs="24" :sm="8" :lg="4"  v-for="item in cards" :key="item.title">
           <div class="main-card-item" @click="open(item)">
             <div class="cover-wrap">
               <el-image
@@ -16,22 +16,6 @@
             <p class="title">{{item.subtitle}}</p>
             <p class="des">{{item.des}}</p>
           </div>
-      </el-col>
-      <el-col :span="4" v-for="item in cards2" :key="item.title">
-        <div class="main-card-item" @click="open(item)">
-          <div class="cover-wrap">
-            <el-image
-              style="width: 100%; height: 100px"
-              :src="item.logo"
-              :fit="cover">
-            </el-image>
-            <div class="cover-mask">
-              <div class="big-title">{{item.title}}</div>
-            </div>
-          </div>
-          <p class="title">{{item.subtitle}}</p>
-          <p class="des">{{item.des}}</p>
-        </div>
       </el-col>
     </el-row>
   </div>

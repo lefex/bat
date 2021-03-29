@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div id="suyan"></div>
+</head>
+<body>
+    <script>
+        let ele = document.getElementById('suyan');
+        // 这种方式实现，只能看到最后一个数字
+        // function count() {
+        //     for (let i = 0; i < 1e6; i++) {
+        //         i++;
+        //         ele.innerHTML = i;
+        //     }
+        // }
+        // count();
+
+        // 可以让浏览器的数字动起来
+        let i = 0;
+        function count() {
+            do {
+                i++;
+                ele.innerHTML = i;
+            } while (i % 1e3 != 0);
+            if (i < 1e7) {
+                // console.log('settimeout');
+                setTimeout(count);
+            }
+        }
+        count();
+    </script>
+</body>
+</html>
