@@ -40,7 +40,6 @@ BAT代表着国内顶尖的互联网公司，包括百度、阿里、腾讯。�
 - [Event Loop Spec](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
 - [event loop](https://javascript.info/event-loop)
 - [queueMicrotask](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/queueMicrotask)
-- [event-loop](https://javascript.info/event-loop)
 - [Microtask guide](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide)
 - [自实现微任务](https://github.com/feross/queue-microtask)
 - [microtask guide in depth](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth)
