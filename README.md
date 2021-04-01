@@ -56,6 +56,8 @@ BAT代表着国内顶尖的互联网公司，包括百度、阿里、腾讯。�
 
 #### 工程构建
 
+- [Eslint 讲解的比较全面](https://zhuanlan.zhihu.com/p/53680918)
+
 #### 大厂面经
 
 - [腾讯蚂蚁字节的前端社招面经](https://mp.weixin.qq.com/s/gQoaxkeqPaw4tucNgm8C3A)
