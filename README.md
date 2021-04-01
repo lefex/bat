@@ -34,6 +34,7 @@ BAT代表着国内顶尖的互联网公司，包括百度、阿里、腾讯。�
 - [Promise MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [Promise/A+ 规范](https://promisesaplus.com/#notes)
 - [手写Promise](https://github.com/dream2023/blog/tree/master/2%E3%80%81promise%E5%8E%9F%E7%90%86)
+- [A polyfill for ES6-style Promises](https://github.com/stefanpenner/es6-promise)
 - [Promise/A+规范译文](https://www.ituring.com.cn/article/66566)
 - [你不知道的JS作者写的Promise](https://github.com/getify/native-promise-only)
 - [MDN yield](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/yield)
@@ -51,10 +52,15 @@ BAT代表着国内顶尖的互联网公司，包括百度、阿里、腾讯。�
 
 - [Node关于网络的实现]()
 - [《JavaScript高级程序设计 网络部分》]()
+- [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
 
-#### 大厂面试题原题
+#### 工程构建
+
+#### 大厂面经
 
 - [腾讯蚂蚁字节的前端社招面经](https://mp.weixin.qq.com/s/gQoaxkeqPaw4tucNgm8C3A)
+- [自学转行3年经验，终入职阿里](https://mp.weixin.qq.com/s/QUqIyF7o1c2EupyUiQssuQ)
+- [阿里腾讯面试梳理](https://mp.weixin.qq.com/s/RXkTNQtvtEB3aClLJSGs_g)
 
 ### 资源推荐
 
