@@ -23,3 +23,13 @@
 - 动态给Vue实例增加属性， this.a = 2 a之前未定义，如何监听a的变化
 - 在 vue 中根据索引值修改的数据变动的，是否可以检测到，为什么？如果有这样的场景你怎么处理
 - Vue中nextTick 的实现原理 与 node 中的 process.nextTick 的区别
+
+
+为何组件要从直接产出 html 变成产出 Virtual DOM 呢？其原因是 Virtual DOM 带来了 分层设计，它对渲染过程的抽象，使得框架可以渲染到 web(浏览器) 以外的平台，以及能够实现 SSR 等。
+
+http://hcysun.me/vue-design/zh/essence-of-comp.html#%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BA%A7%E5%87%BA%E6%98%AF%E4%BB%80%E4%B9%88
+
+VNode 是真实 DOM 的描述，比如我们可以用如下对象描述一个 div 标签：
+
+vnode：虚拟 DOM
+container：真实 DOM 节点
