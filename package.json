@@ -1,7 +1,7 @@
 {
   "name": "bat",
   "version": "1.0.0",
-  "description": "文库FE团队网站",
+  "description": "前端面试",
   "main": "index.js",
   "directories": {
     "doc": "docs",

@@ -66,7 +66,98 @@ module.exports = {
                     '4'
                   ]
                 }
-              ]
+            ],
+            '/vue/': [
+              {
+                title: 'vue核心原理',
+                collapsable: true,
+                children: [
+                  '',
+                  '1'
+                ]
+              }
+            ],
+            '/css/': [
+              {
+                title: 'css',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/webpack/': [
+              {
+                title: '打包构建',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/per/': [
+              {
+                title: '性能优化',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/dsa/': [
+              {
+                title: '数据结构与算法',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/borswer/': [
+              {
+                title: '浏览器',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/safe/': [
+              {
+                title: '浏览器中的安全问题',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/node/': [
+              {
+                title: 'node的一些应用',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/noop/': [
+              {
+                title: '常考题',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ],
+            '/work/': [
+              {
+                title: '浏览器中的安全问题',
+                collapsable: true,
+                children: [
+                  ''
+                ]
+              }
+            ]
         }
     },
 

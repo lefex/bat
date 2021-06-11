@@ -1,10 +1,10 @@
-# vue 相关的面试题
+vue 相关的面试题
 
 - 聊聊 Vue 的双向数据绑定，Model 如何改变 View，View 又是如何改变 Model 的
 - 聊聊 Redux 和 Vuex 的设计思想
 - React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
 - vue 在 v-for 时给每项元素绑定事件需要用事件代理吗？为什么？
-- react-router 里的 <Link> 标签和 <a> 标签有什么区别
+- react-router 里的 Link 标签和 a 标签有什么区别
 - Vue 的父组件和子组件生命周期钩子执行顺序是什么
 - 为什么普通 for 循环的性能远远高于 forEach 的性能，请解释其中的原因。
 - redux 为什么要把 reducer 设计成纯函数

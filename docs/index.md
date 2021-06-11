@@ -23,52 +23,52 @@ mainCards:
 - title: Vue
   des: Vue 的编程思想及周边框架原理、编程思想
   subtitle: 至少深入掌握一个框架
-  link: https://github.com/lefex/bat
+  link: /bat/vue/
   logo: https://t7.baidu.com/it/u=2529476510,3041785782&fm=193&f=GIF
 - title: CSS
   des: CSS布局、DOM、rem、布局技巧
   subtitle: 让页面变得绚丽多彩
-  link: https://github.com/lefex/bat
+  link: /bat/css/
   logo: https://t7.baidu.com/it/u=2397542458,3133539061&fm=193&f=GIF
 - title: 前端构建
   des: webpack、gulp、打包优化、打包原理
   subtitle: 让开发变得更高效
-  link: https://github.com/lefex/bat
+  link: /bat/webpack/
   logo: https://t7.baidu.com/it/u=3435942975,1552946865&fm=193&f=GIF
 - title: 性能优化
   des: 性能优化手段、项目性能优化实践
   subtitle: 给用户一流的体验
-  link: https://github.com/lefex/bat
+  link: /bat/per/
   logo: https://t7.baidu.com/it/u=825057118,3516313570&fm=193&f=GIF
 - title: 算法
   des: 基础算法题解析，数据结构，必考
   subtitle: 别怕，其实很简单
-  link: https://github.com/lefex/bat
+  link: /bat/dsa/
   logo: https://t7.baidu.com/it/u=1297102096,3476971300&fm=193&f=GIF
 - title: 浏览器
   des: 浏览器核心原理，时间循环，调试技巧
   subtitle: 浏览器的运作机制
-  link: https://github.com/lefex/bat
+  link: /bat/borswer/
   logo: https://t7.baidu.com/it/u=12235476,3874255656&fm=193&f=GIF
 - title: 安全
   des: 常见的安全防御，小心别人黑你
   subtitle: 处处小心
-  link: https://github.com/lefex/bat
+  link: /bat/safe/
   logo: https://t7.baidu.com/it/u=2671101745,1413589787&fm=193&f=GIF
 - title: node
   des: 服务端相关的一些基础知识，node应用
   subtitle: 至少掌握一个网络框架
-  link: https://github.com/lefex/bat
+  link: /bat/node/
   logo: https://t7.baidu.com/it/u=2605426091,1199286953&fm=193&f=GIF
 - title: 常考题
   des: 不分类，汇总一些常考的面试图，典型案例
   subtitle: 杂七杂八
-  link: https://github.com/lefex/bat
+  link: /bat/noop/
   logo: https://t7.baidu.com/it/u=2389510231,616424657&fm=193&f=GIF
 - title: 敲门砖
   des: 简历如何写、自我介绍、项目经验、薪资
   subtitle: 软实力
-  link: https://github.com/lefex/bat
+  link: /bat/work/
   logo: https://t7.baidu.com/it/u=1963305748,3425007544&fm=193&f=GIF
 
 # 标题链接

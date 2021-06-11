@@ -18,11 +18,13 @@
 ### 原型
 
 - 请写出如下代码的打印结果
+this 实际上是在函数被调用时发生的绑定，它指向什么完全取决于函数在哪里被调用。
 ```js
 function Foo() {
     Foo.a = function() {
         console.log(1)
     }
+    // 这里的 thsi 并不指向 Foo 函数，而是全局对象
     this.a = function() {
         console.log(2)
     }
@@ -33,7 +35,7 @@ Foo.prototype.a = function() {
 Foo.a = function() {
     console.log(4)
 }
-Foo.a();
+Foo.a(); // 4
 let obj = new Foo();
 obj.a();
 Foo.a();
